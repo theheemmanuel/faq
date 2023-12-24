@@ -1,4 +1,5 @@
 .attribution {
+  margin-top: 10px;
   font-size: 11px;
   text-align: center;
 }
@@ -10,13 +11,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: roboto;
+  /* background-image: url(/assets/images/background-pattern-desktop.svg); */
 }
 
 .faq {
   background-color: white;
   padding: 15px;
   border-radius: 20px;
-  max-width: 400px;
+  max-width: 500px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20%;
@@ -30,19 +32,40 @@ body {
 
 .quest {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 55px;
+  padding: 15px 0;
 }
 
+.quest h3 {
+  margin: 0;
+  padding: 0;
+}
 .front {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.qqss{
+.qqss {
   border-bottom: solid 1px rgb(122, 120, 120);
 }
 
-.answer{
+.qqss:nth-last-child(1) {
+  border: none;
+}
+
+.answer {
   display: none;
+  color: rgb(122, 120, 120);
+  width: 100%;
+}
+
+/* .answer P {
+  padding: 0;
+  margin: 0;
+} */
+
+.answer.active {
+  display: block;
 }
