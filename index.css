@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(236, 220, 236);
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+.faq {
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  max-width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quest {
+  display: flex;
+  gap: 30px;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
