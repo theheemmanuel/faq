@@ -12,7 +12,8 @@ body {
   padding: 0;
   font-family: roboto;
   background-image: url(/assets/images/background-pattern-desktop.svg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .faq {
@@ -46,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 70px 0;
 }
 
 .qqss {
